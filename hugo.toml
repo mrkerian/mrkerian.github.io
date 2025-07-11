@@ -1,4 +1,12 @@
-baseURL = 'https://mrkerian.github.io'
-languageCode = 'en-us'
-title = 'Personal GH pages of JKACME's Member'
+baseURL = 'https://mrkerian.github.io/'
+languageCode = 'en'
+title = 'Personal GH pages of JKACME Member'
 theme = 'ananke'
+
+[language]
+  [language.en]
+    [language.en.params]
+      [language.en.params.hb]
+        foo = 'bar'
+      [language.en.params.hugopress]
+        foo = 'bar'
